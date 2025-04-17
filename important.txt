@@ -1,0 +1,28 @@
+PS C:\Users\hrida\Desktop\Blockchain-Projects\BEPEPETOKEN\blockchain> npm run deploy-mainnet
+
+> bepepetoken@1.0.0 deploy-mainnet
+> npx hardhat run scripts/deploy.js --network bscMainnet
+
+Deploying BEPEPE Token with account: 0xD57e07f47aD37D884f0689f42013741d4eA1bE43
+Network: bscMainnet
+Deployer balance (wei): 61964690700000000
+AdminBepepeToken deployed at: 0x0fD3b2C531Ae5c193a5FAd03408B6aBdAAE48da1
+UserBepepeToken deployed at: 0xEc28Df71620AB066fDa72E43431df7266b3f91dB
+Verifying AdminBepepeToken on BscScan...
+Successfully submitted source code for contract
+contracts/AdminBepepeToken.sol:AdminBepepeToken at 0x0fD3b2C531Ae5c193a5FAd03408B6aBdAAE48da1
+for verification on the block explorer. Waiting for verification result...
+
+Successfully verified contract AdminBepepeToken on the block explorer.
+https://bscscan.com/address/0x0fD3b2C531Ae5c193a5FAd03408B6aBdAAE48da1#code
+
+Verifying UserBepepeToken on BscScan...
+Successfully submitted source code for contract
+contracts/UserBepepeToken.sol:UserBepepeToken at 0xEc28Df71620AB066fDa72E43431df7266b3f91dB
+for verification on the block explorer. Waiting for verification result...
+
+Successfully verified contract UserBepepeToken on the block explorer.
+https://bscscan.com/address/0xEc28Df71620AB066fDa72E43431df7266b3f91dB#code
+
+✅ Deployment and verification complete!
+PS C:\Users\hrida\Desktop\Blockchain-Projects\BEPEPETOKEN\blockchain> 

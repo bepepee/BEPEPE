@@ -1,0 +1,28 @@
+{
+  "name": "bepepetoken",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "compile": "npx hardhat compile",
+    "deploy-mainnet": "npx hardhat run scripts/deploy.js --network bscMainnet",
+    "deploy-testnet": "npx hardhat run scripts/deploy.js --network bscTestnet",
+    "clean": "npx hardhat clean"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@nomiclabs/hardhat-etherscan": "^3.1.8",
+    "@types/node": "^22.14.1",
+    "ethers": "^6.13.5",
+    "hardhat": "^2.23.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.6",
+    "dotenv": "^16.5.0"
+  }
+}
